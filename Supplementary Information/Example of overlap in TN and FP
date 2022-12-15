@@ -1,0 +1,24 @@
+Reference structure :
+(	(	.	(	.	.	)	.	)	)
+
+Predicted structure 1 :
+. . . . . . . . . .
+
+Predicted structure 2 :
+( ( . ) . . ( . ) )
+
+Using our definitions of each category we get the following values for TP, FN, TN and FP respectively :
+
+Predicted structure 1 : 
+TP = 0 
+FN = 3 
+TN = 4  
+FP = 0
+
+Predicted structure 2 : 
+TP = 1 
+FN = 2 
+TN = 4
+FP = 2
+
+As it could be seen, TP + FN is same for both predictions, whereas TN + FP is not.
